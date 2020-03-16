@@ -1,0 +1,90 @@
+/* GÉNÉRAL */
+
+/* retire la marge auto */
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* HEADER */
+
+/* header fixé au top */
+#topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* forme du header */
+header div.topbar{
+    background-color: #ffffff;
+    border: 1px solid black; border-left: none; border-right: none; border-top: none;
+}
+/* logo */
+header div img {
+    width: 10%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* class du manu de navigation --> met à droite les boutons */
+header div nav.menu-nav{
+    float: right;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* class des boutons --> modifie les boutons */
+header div nav ul li.btn-nav{
+    list-style-type: none;
+    font-size: 24px;
+    color: #4c98c7;
+    background-color: #ededed;
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* modifie le visuel des liens des boutons */
+header div nav ul li.btn-nav a{
+    text-decoration: none;
+    color: #4c98c7;
+}
+header div nav ul li.btn-nav a:hover{
+    text-decoration: none;
+    color: #4272ad;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/* MAIN */
+
+/* espace qui fait démarrer le main en-dessous du header */
+main {
+    margin-top: 15%;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+/* Séparateur fait main */
+.separateur {
+    background: #000000;
+    text-align: center;
+    width: 50%;
+    height: 2px;
+    margin: auto;
+}
+/* Séparateur de base custom */
+hr {
+    border: 2px solid #000000;
+    width: 50%;
+    margin: auto;
+}
+
+
