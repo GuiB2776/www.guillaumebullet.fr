@@ -4,6 +4,7 @@
 html, body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -19,7 +20,7 @@ html, body {
 /* forme du header */
 header div.topbar{
     background-color: #ffffff;
-    border: 1px solid black; border-left: none; border-right: none; border-top: none;
+    border: 1px solid #e1e1e1; border-left: none; border-right: none; border-top: none;
 }
 /* logo */
 header div img {
@@ -29,9 +30,14 @@ header div img {
     margin-top: 1%;
     margin-bottom: 1%;
 }
+header div img a:hover {
+    
+}
 /* class du manu de navigation --> met à droite les boutons */
 header div nav.menu-nav{
     float: right;
+    position: relative;
+    z-index: -1;
     margin-right: 4%;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -41,7 +47,6 @@ header div nav ul li.btn-nav{
     list-style-type: none;
     font-size: 24px;
     color: #4c98c7;
-    background-color: #ededed;
     display: inline-block;
     margin-left: 15px;
     padding-top: 0;
@@ -55,7 +60,8 @@ header div nav ul li.btn-nav a{
     color: #4c98c7;
 }
 header div nav ul li.btn-nav a:hover{
-    text-decoration: none;
+    transition: 0.5s;
+    text-decoration: underline #c73434;
     color: #4272ad;
 }
 
@@ -65,7 +71,7 @@ header div nav ul li.btn-nav a:hover{
 
 /* espace qui fait démarrer le main en-dessous du header */
 main {
-    margin-top: 15%;
+    margin-top: 20%;
 }
 
 
