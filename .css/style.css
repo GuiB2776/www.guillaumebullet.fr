@@ -1,4 +1,4 @@
-/* GÉNÉRAL */
+/**/ /**/ /* GÉNÉRAL */ /**/ /**/
 
 /* retire la marge auto */
 html, body {
@@ -6,78 +6,16 @@ html, body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-/* HEADER */
-
-/* header fixé au top */
-#topbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-/* forme du header */
-header div.topbar{
-    background-color: #ffffff;
-    border: 1px solid #e1e1e1; border-left: none; border-right: none; border-top: none;
-}
-/* logo */
-header div img {
-    width: 10%;
-    height: auto;
-    margin-left: 2%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-header div img a:hover {
-    
-}
-/* class du manu de navigation --> met à droite les boutons */
-header div nav.menu-nav{
-    float: right;
-    position: relative;
-    z-index: -1;
-    margin-right: 4%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
-/* class des boutons --> modifie les boutons */
-header div nav ul li.btn-nav{
-    list-style-type: none;
-    font-size: 24px;
-    color: #4c98c7;
-    display: inline-block;
-    margin-left: 15px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/* modifie le visuel des liens des boutons */
-header div nav ul li.btn-nav a{
-    text-decoration: none;
-    color: #4c98c7;
-}
-header div nav ul li.btn-nav a:hover{
-    transition: 0.5s;
-    text-decoration: underline #c73434;
-    color: #4272ad;
-}
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-/* MAIN */
-
 /* espace qui fait démarrer le main en-dessous du header */
 main {
-    margin-top: 20%;
+    margin-top: 220px;
 }
-
-
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
+/* modifie les listings pour enlever le padding devant */
+ul {
+    display: block;
+    list-style-type: disc;
+    padding-inline-start: 0px;
+}
 /* Séparateur fait main */
 .separateur {
     background: #000000;
@@ -91,6 +29,136 @@ hr {
     border: 2px solid #000000;
     width: 50%;
     margin: auto;
+    
 }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/**/ /**/ /* HEADER */ /**/ /**/
+
+/* Emplacement et Forme du Header */
+
+/* header fixé au top */
+#topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* forme du header */
+header div.topbar{
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1; border-left: none; border-right: none; border-top: none;
+}
+/* logo du header */
+header div img {
+    width: 150px;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* animation du survol du logo ( À FAIRE ) */
+header div img:hover {
+}
+
+/* Menu de Navigation du Header */
+
+/* class du menu de navigation --> met à droite les boutons */
+header div nav.menu-nav{
+    float: right;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* class des boutons --> modifie les boutons */
+header div nav ul li.btn-nav{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 40px;
+    color: #4c98c7;
+    margin-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Design des boutons */
+
+/* modifie le visuel des liens des boutons */
+header div nav ul li.btn-nav a{
+    text-decoration: none;
+    color: #4c98c7;
+}
+/* Ajoute un soulignement rouge lors du survol */
+header div nav ul li.btn-nav a:hover{
+    transition: 0.5s;
+    text-decoration: underline #c73434;
+    color: #4272ad;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/**/ /**/ /* MAIN */ /**/ /**/
+
+/* TEXTE D'ACCUEIL */
+/* Bienvenue */
+main section div.texte-accueil h1{
+    font-size: 30px;
+    text-align: center;
+}
+/* texte d'accueil */
+main section div.texte-accueil p{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* MENU DE NAVIAGTION AVEC IMAGES */
+/* enlever les puces */
+main section div nav.nav-accueil ul li{
+    list-style-type: none;
+}
+/* Mise en place de la grille */
+#grille-accueil{
+    display: grid;
+      /* configuration de la grille en 3 colonnes */
+      grid-template-columns: 33% 33% 33%;
+      grid-auto-rows: auto; 
+      grid-column-gap: 2px;
+      grid-row-gap: 1px;
+}
+ /* qui suis-je */
+ #qsj {
+    grid-column: 1;
+    text-align: center;
+}
+ /* compétences */
+ #cpt{
+    grid-column: 2;
+    text-align: center;
+}
+ /* Projets */
+ #prj {
+    grid-column: 3;
+    text-align: center;
+}
+/* modifier textes */
+main section div nav.nav-accueil ul li h3{
+    font-size: 18px;
+}
+main section div nav.nav-accueil ul li p{
+    font-size: 12px;
+}
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 
