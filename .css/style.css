@@ -10,34 +10,35 @@ html, body {
 main {
     margin-top: 220px;
 }
-/* modifie les listings pour enlever le padding devant */
+/* modifie les listings en <ul> pour enlever le padding devant */
 ul {
-    display: block;
-    list-style-type: disc;
     padding-inline-start: 0px;
 }
-/* Séparateur fait main */
+/* Séparateur fait main (à revoir)*/
 .separateur {
-    background: #000000;
+    background: #ffffff;
     text-align: center;
     width: 50%;
-    height: 2px;
+    height: 10px;
     margin: auto;
 }
-/* Séparateur de base custom */
+/* Séparateur de base custom (préférable)*/
 hr {
-    border: 2px solid #000000;
+    border: 2px solid #4272ad;
     width: 50%;
     margin: auto;
     
 }
 
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 /**/ /**/ /* HEADER */ /**/ /**/
 
-/* Emplacement et Forme du Header */
+
+/* Emplacement et Forme du header */
 
 /* header fixé au top */
 #topbar {
@@ -62,6 +63,7 @@ header div img {
 header div img:hover {
 }
 
+
 /* Menu de Navigation du Header */
 
 /* class du menu de navigation --> met à droite les boutons */
@@ -84,6 +86,7 @@ header div nav ul li.btn-nav{
     margin-bottom: 0;
 }
 
+
 /* Design des boutons */
 
 /* modifie le visuel des liens des boutons */
@@ -98,16 +101,21 @@ header div nav ul li.btn-nav a:hover{
     color: #4272ad;
 }
 
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
 
 /**/ /**/ /* MAIN */ /**/ /**/
 
+
 /* TEXTE D'ACCUEIL */
+
 /* Bienvenue */
 main section div.texte-accueil h1{
     font-size: 30px;
     text-align: center;
+    color: #4272ad;
 }
 /* texte d'accueil */
 main section div.texte-accueil p{
@@ -115,9 +123,12 @@ main section div.texte-accueil p{
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+    color: #4272ad;
 }
 
+
 /* MENU DE NAVIAGTION AVEC IMAGES */
+
 /* enlever les puces */
 main section div nav.nav-accueil ul li{
     list-style-type: none;
@@ -153,6 +164,118 @@ main section div nav.nav-accueil ul li h3{
 main section div nav.nav-accueil ul li p{
     font-size: 12px;
 }
+
+
+/* PRÉSENTATIONS PERSONNELLES */
+
+/* Titre de section : Présentation Personnelle */
+main section article div.titre-section h2{
+    font-size: 35px;
+    text-align: center;
+    color: #121212;
+}
+main section article div.titre-section p{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #4272ad;
+}
+
+
+/* Titre de partie : À la recherche du Numérique / Une expérience enrichissante / Désillusion et Réorientation */
+main section article div div.s3-titre1 h3, main section article div div.s3-titre2 h3, main section article div div.s3-titre3 h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Titre de sous-partie */
+main section article div div.s3-texte1 h4, main section article div div.s3-texte2 h4, main section article div div.s3-texte3 h4{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+/* Texte de sous-partie */
+main section article div div.s3-texte1 p, main section article div div.s3-texte2 p,main section article div div.s3-texte3 p{
+    font-size: 14px;
+    text-align: left;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4272ad;
+}
+
+/* Images d'illustrations  */
+main section article div div img#img-imac, main section article div div img#img-btsam, main section article div div img#img-nws{
+    width: 75%;
+    height: auto;
+    padding-left: 12.5%;
+}
+
+main section article div.ccl-presentation h5{
+    text-align: center;
+    color: #4c98c7;
+    font-size: 16px;
+}
+
+
+/* COMPÉTENCES ET EXPÉRIENCES */
+
+/* Titre de section : Présentation Personnelle */
+main section div div.titre-section h2{
+    font-size: 35px;
+    text-align: center;
+    color: #121212;
+}
+main section div div.titre-section p{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #4272ad;
+}
+
+/* Titre de partie : Compétences / Expériences */
+main section div div.liste-cpt h3, main section div div.liste-exp h3{
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Titre de sous-partie */
+main section div div.liste-cpt h4, main section div div.liste-exp h4{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 120px;
+    color: #c73434;
+}
+/* Texte de sous-partie */
+main section div div.liste-cpt ul li{
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: #4272ad;
+}
+/* Texte de sous-partie */
+main section div div.liste-exp ul li{
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #4272ad;
+}
+
+/* Images d'illustrations  */
+main section div div img#img-cv, main section div div img#img-ldr {
+    width: 75%;
+    height: auto;
+    padding-left: 12.5%;
+}
+
+
+
+
+
 
 
 
