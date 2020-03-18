@@ -5,13 +5,19 @@
 <head>
     <!-- UTF-8 et titre onglet -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>  Guillaume Bullet </title>
     <!-- Liens entre les fichiers -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Media Queries -->
+    <link rel="stylesheet" type="text/css" href="css/smartphones.css">
+    <link rel="stylesheet" type="text/css" href="css/615px.css">
+    <link rel="stylesheet" type="text/css" href="css/1000px.css">  
     <!-- Favicon --> 
     <link rel="icon" sizes="32x32" href="img/guillaume_bullet_favicon.png" type="image/png">
     <!-- police google Roboto -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- responsive -->
 </head>
 
 
@@ -70,7 +76,7 @@
                     </ul>
                 </nav>
             </div>
-            <div id="ancre-qsj"> </div>
+            <div> </div>
         </section >
 
     <!--séparateur à modifier-->
@@ -79,16 +85,16 @@
         <!-- Présentation Personnelle -->
         <section>
             <article>  
-                <div class="titre-section">
+                <div class="titre-section" id="ancre-qsj">
                     <br> <h2> Qui suis-je ? </h2>
                     <p> Présentation Personnelle.</p> 
                 </div>
-                <div class="section-presentation"> 
+                <div class="section-presentation" id="grille-1050px"> 
                     <div class="s3-partie1">
-                        <div class="s3-titre1">
+                        <div class="s3-titre1" class="col1-lin1">
                             <br> <h3> À la recherche du Numérique </h3>
                         </div>
-                        <div class="s3-texte1">
+                        <div class="s3-texte1" class="col1-lin1">
                             <h4> La faculté </h4>
                             <p> Sorti d’un Bac Littéraire, Spécialité Anglais, je me lance en Fac de Droit et 
                                 trouve cette filière très intéressante, me permettant de garder le cap six mois. 
@@ -154,8 +160,7 @@
                     </div>
                 </div>
                 <div class="ccl-presentation"> 
-                    <br> <div id="ancre-competences"> </div> 
-                    <h5> Aujourd'hui ce que j'aime c'est développer, échanger, partager, sur un projet et le réaliser. </h5>
+                    <br> <h5> Aujourd'hui ce que j'aime c'est développer, échanger, partager, sur un projet et le réaliser. </h5>
                 </div>
             </article>
         </section>
@@ -167,7 +172,7 @@
         <section>
             <div>
                 <div class="titre-section">
-                    <h2> "Travaillographie" </h2>
+                    <h2 id="ancre-competences"> "Travaillographie" </h2>
                     <p> Compétences et Expériences Professionnelles.</p>
                 </div>
                 <div>
@@ -223,14 +228,12 @@
                     </ul>
                 </div>
             </div>
-            <div id="ancre-projets"> </div>
         </section>
-
 
         <br>
         <hr> 
         <br>
-
+        <div id="ancre-projets"> </div>
 
     </main>
 
@@ -242,7 +245,6 @@
                 <a href="http://guillaumeb.normandiedigitalschool.fr/"> <img id="logo-footer" class="logo-footer" src="img/guillaume_bullet_logo.png"> </a>
                 <p> © Guillaume Bullet </p>
             </div>
-            <hr>
             <div class="footer-bloc2">
                 <h5> • Contactez moi • </h5>
                 <h6> → Par email : </h6>
@@ -251,9 +253,8 @@
                 <a href="https://www.linkedin.com/in/guillaume-bullet/"> <img class="linkedin-logo" src="img/guillaume bullet linkedin logo.png"> </a>
                 <a href="https://github.com/gbullet-nws"> <img class="github-logo" src="img/guillaume bullet github logo.png"> </a>
             </div>
-            <hr>
             <!-- Menu de navigation Principal -->
-            <div>
+            <div class="footer-bloc3">
                 <nav class="menu-nav-footer"> 
                     <ul>
                         <li class="btn-nav-footer">
@@ -271,8 +272,7 @@
                     </ul>
                 </nav>
             </div>
-            <hr>
-            <div>
+            <div class="footer-bloc4">
                 <nav class="menu-projets-footer"> 
                     <ul>
                         <li class="btn-projets-footer">

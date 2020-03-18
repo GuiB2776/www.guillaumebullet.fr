@@ -132,6 +132,9 @@ main section div.texte-accueil p{
     padding-right: 10%;
     color: #4272ad;
 }
+
+/* MENU DE NAVIAGTION AVEC IMAGES */
+
 /* images du menu de navigation d'accueil */
 main section div nav ul li img.img-nav-accueil{
     width:75%;
@@ -143,9 +146,6 @@ main section div nav ul li img.img-nav-accueil{
 main section div nav ul li img:hover{
     transform: rotateY(180deg);
 }
-
-/* MENU DE NAVIAGTION AVEC IMAGES */
-
 /* enlever les puces */
 main section div nav.nav-accueil ul li{
     list-style-type: none;
@@ -305,7 +305,7 @@ main section div div img#img-cv, main section div div img#img-ldr {
 /* Emplacement et Forme du footer */
 
 /* footer en grille */
-footer div#grille-footer{
+footer div.grille-footer{
     display: grid;
       /* configuration de la grille en 3 colonnes */
       grid-template-columns: 1fr;
@@ -511,3 +511,12 @@ main section.credits-rgpd div p a{
 main section.credits-rgpd div p a:hover{
     color: #4272ad;
 }
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/*  ►  Media Querries  ◄  */ 
+/* TABLETTES */
