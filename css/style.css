@@ -217,8 +217,8 @@ main section article div div.s3-texte1 p, main section article div div.s3-texte2
     font-size: 26px;
     text-align: left;
     text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
     color: #4272ad;
 }
 
@@ -335,7 +335,6 @@ footer div div.footer-bloc1 p{
 }
 
 /* bloc 2 : Contactez moi */
-
 /* Contactez moi */
 footer div div.footer-bloc2 h5{
     font-size: 30px;
@@ -369,7 +368,6 @@ footer div div.footer-bloc2 a{
 }
 
 /* bloc 3 : Menu de Navigation */
-
 /* class du menu de navigation --> met au centre les boutons */
 footer div div nav.menu-nav-footer{
     text-align: center;
@@ -380,7 +378,7 @@ footer div div nav.menu-nav-footer{
 /* class des boutons --> modifie les boutons */
 footer div div nav ul li.btn-nav-footer{
     list-style-type: none;
-    font-size: 50px;
+    font-size: 40px;
     color: #4c98c7;
     margin-left: 30px;
     padding-top: 0;
@@ -388,9 +386,7 @@ footer div div nav ul li.btn-nav-footer{
     margin-top: 0;
     margin-bottom: 0;
 }
-
 /* Design des boutons */
-
 /* modifie le visuel des liens des boutons */
 footer div div nav ul li.btn-nav-footer a{
     text-decoration: none;
@@ -411,16 +407,14 @@ footer div div nav.menu-projets-footer{
 /* class des boutons --> modifie les boutons */
 footer div div nav ul li.btn-projets-footer {
     list-style-type: none;
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 30px;
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
-
 /* Design des boutons */
-
 /* modifie le visuel des liens des boutons */
 footer div div nav ul li.btn-projets-footer a{
     text-decoration: none;
@@ -437,7 +431,7 @@ footer div div nav ul li.btn-projets-footer a:hover{
 
 /* Socket */
 footer div.socket p{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     color: white;
     background-color: black;
