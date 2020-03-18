@@ -30,10 +30,12 @@ hr {
     
 }
 
-
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+/**/ /**/ /**/ /**/ /* PAGE INDEX.HTML (accueil) */ /**/ /**/ /**/ /**/
 
 /**/ /**/ /* HEADER */ /**/ /**/
 
@@ -49,7 +51,7 @@ hr {
 }
 /* forme du header */
 header div.topbar{
-    background-color: #ffffff;
+    background-color: #fafafa;
     border: 1px solid #e1e1e1; border-left: none; border-right: none; border-top: none;
 }
 /* logo du header */
@@ -313,6 +315,7 @@ footer div#grille-footer{
       grid-auto-rows: auto; 
       grid-column-gap: 2px;
       grid-row-gap: 1px;
+      background-color: #fafafa;
 }
 /* bande bleu de démarcation du footer */
 footer div.grille-footer{
@@ -402,4 +405,81 @@ footer div div nav ul li.btn-nav-footer a:hover{
     color: #4272ad;
 }
 
-/* bloc 4 : Crédits - RGPD -  */
+/* bloc 4 : Navigation Derniers Projets  */
+/* class du menu de navigation --> met à gauche les boutons */
+footer div div nav.menu-projets-footer{
+    padding-left: 10%;
+}
+/* class des boutons --> modifie les boutons */
+footer div div nav ul li.btn-projets-footer {
+    list-style-type: none;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Design des boutons */
+
+/* modifie le visuel des liens des boutons */
+footer div div nav ul li.btn-projets-footer a{
+    text-decoration: none;
+    color: #555555;
+}
+/* Ajoute un soulignement rouge lors du survol */
+footer div div nav ul li.btn-projets-footer a:hover{
+    transition: 0.5s;
+    color: #c73434;
+}
+
+
+/* Emplacement et Forme de la socket */
+
+/* Socket */
+footer div.socket p{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/**/ /**/ /**/ /**/ /* PAGE CONTACT */ /**/ /**/ /**/ /**/
+
+
+/* Mise en forme des textes */
+main section.mails div h2{
+    text-align: center;
+    font-size: 50px;
+}
+main section.mails div ul li{
+    text-align: center;
+    font-size: 32px;
+    color: #4272ad;
+}
+
+/* Centrage du texte et des images */
+main section.reseaux-sociaux div ul li, main section.reseaux-sociaux div h2{
+    text-align: center;
+    font-size: 50px;
+}
+/* logo linkedin & github */
+main section.reseaux-sociaux img.linkedin-logo, main section.reseaux-sociaux img.github-logo{
+    width: 25%;
+    transition: 0.3s;
+}
+/* survol logo linkedin & github */
+main section.reseaux-sociaux img.linkedin-logo:hover, main section.reseaux-sociaux img.github-logo:hover{
+    transform: scale(1.2, 1.2);
+}
+/* liens logo linkedin & github */
+main section.reseaux-sociaux a{
+    text-decoration: none;
+}
