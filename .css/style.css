@@ -54,16 +54,16 @@ header div.topbar{
 }
 /* logo du header */
 header div img {
-    width: 11%;
+    width: 13%;
     height: auto;
     margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    transition: 1s; 
+    transition: 0.3s; 
 }
 /* animation du survol du logo ( À FAIRE ) */
 header div img:hover {
-    transform: rotateY(180deg);
+    transform: scale(1.2, 1.2);
 }
 
 
@@ -116,13 +116,13 @@ header div nav ul li.btn-nav a:hover{
 
 /* Bienvenue */
 main section div.texte-accueil h1{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: #4272ad;
 }
 /* texte d'accueil */
 main section div.texte-accueil p{
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -134,7 +134,7 @@ main section div nav ul li img.img-nav-accueil{
     height: auto;
     display:block;
     margin: auto;
-    transition: 1s;
+    transition: 0.8s;
 }
 main section div nav ul li img:hover{
     transform: rotateY(180deg);
@@ -159,16 +159,19 @@ main section div nav.nav-accueil ul li{
  #qsj {
     grid-column: 1;
     text-align: center;
+    padding-top: 5%;
 }
  /* compétences */
  #cpt{
     grid-column: 2;
     text-align: center;
+    padding-top: 5%;
 }
  /* Projets */
  #prj {
     grid-column: 3;
     text-align: center;
+    padding-top: 5%;
 }
 /* modifier textes */
 main section div nav.nav-accueil ul li h3{
@@ -286,10 +289,9 @@ main section div div img#img-cv, main section div div img#img-ldr {
 }
 
 
+/* PROJETS */
 
-
-
-
+/* */
 
 
 
@@ -297,4 +299,107 @@ main section div div img#img-cv, main section div div img#img-ldr {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
+/**/ /**/ /* F00TER */ /**/ /**/
 
+
+/* Emplacement et Forme du footer */
+
+/* footer en grille */
+footer div#grille-footer{
+    display: grid;
+      /* configuration de la grille en 3 colonnes */
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4,auto);
+      grid-auto-rows: auto; 
+      grid-column-gap: 2px;
+      grid-row-gap: 1px;
+}
+/* bande bleu de démarcation du footer */
+footer div.grille-footer{
+    border: 1px solid #4c98c7; border-left: none; border-right: none; border-bottom: none;
+}
+
+/* Placements des blocs du footer en partant du haut*/
+
+/* bloc 1 : logo footer */
+footer div div.footer-bloc1 img#logo-footer.logo-footer{
+    width:50%;
+    padding-top: 5%;
+    margin-left: 25%;
+}
+/* texte sous logo footer */
+footer div div.footer-bloc1 p{
+    font-size: 24px;
+    text-align: center;
+}
+
+/* bloc 2 : Contactez moi */
+
+/* Contactez moi */
+footer div div.footer-bloc2 h5{
+    font-size: 28px;
+    text-align: center;
+    color: #c73434;
+}
+/* Par email / Sur Linkedin & GitHub */
+footer div div.footer-bloc2 h6{
+    font-size: 18px;
+    padding-left: 22%;
+}
+/* contact.guillaumebullet@gmail.com */
+footer div div.footer-bloc2 p{
+    font-size: 25px;
+    text-align: center;
+    color: #4272ad;
+}
+/* logo linkedin & github */
+footer div div.footer-bloc2 img.linkedin-logo,footer div div.footer-bloc2 img.github-logo{
+    width: 25%;
+    padding-left: 17%;
+    transition: 0.3s;
+}
+/* survol logo linkedin & github */
+footer div div.footer-bloc2 img.linkedin-logo:hover,footer div div.footer-bloc2 img.github-logo:hover{
+    transform: scale(1.2, 1.2);
+}
+/* liens logo linkedin & github */
+footer div div.footer-bloc2 a{
+    text-decoration: none;
+}
+
+/* bloc 3 : Menu de Navigation */
+
+/* class du menu de navigation --> met au centre les boutons */
+footer div div nav.menu-nav-footer{
+    text-align: center;
+    margin-right: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* class des boutons --> modifie les boutons */
+footer div div nav ul li.btn-nav-footer{
+    list-style-type: none;
+    font-size: 40px;
+    color: #4c98c7;
+    margin-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Design des boutons */
+
+/* modifie le visuel des liens des boutons */
+footer div div nav ul li.btn-nav-footer a{
+    text-decoration: none;
+    color: #4c98c7;
+}
+/* Ajoute un soulignement rouge lors du survol */
+footer div div nav ul li.btn-nav-footer a:hover{
+    transition: 0.5s;
+    text-decoration: underline #c73434;
+    color: #4272ad;
+}
+
+/* bloc 4 : Crédits - RGPD -  */
