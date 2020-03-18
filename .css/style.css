@@ -45,6 +45,7 @@ hr {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 8%;
 }
 /* forme du header */
 header div.topbar{
@@ -53,14 +54,16 @@ header div.topbar{
 }
 /* logo du header */
 header div img {
-    width: 150px;
+    width: 11%;
     height: auto;
     margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
+    transition: 1s; 
 }
 /* animation du survol du logo ( À FAIRE ) */
 header div img:hover {
+    transform: rotateY(180deg);
 }
 
 
@@ -125,7 +128,17 @@ main section div.texte-accueil p{
     padding-right: 10%;
     color: #4272ad;
 }
-
+/* images du menu de navigation d'accueil */
+main section div nav ul li img.img-nav-accueil{
+    width:50%;
+    height: auto;
+    display:block;
+    margin: auto;
+    transition: 1s;
+}
+main section div nav ul li img:hover{
+    transform: rotateY(180deg);
+}
 
 /* MENU DE NAVIAGTION AVEC IMAGES */
 
