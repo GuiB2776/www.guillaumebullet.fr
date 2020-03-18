@@ -14,9 +14,11 @@ main {
 ul {
     padding-inline-start: 0px;
     text-decoration: none;
+    list-style-type: none;
 }
 li {
     text-decoration: none;
+    list-style-type: none;
 }
 /* Séparateur fait main (à revoir)*/
 .separateur {
