@@ -13,6 +13,10 @@ main {
 /* modifie les listings en <ul> pour enlever le padding devant */
 ul {
     padding-inline-start: 0px;
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
 }
 /* Séparateur fait main (à revoir)*/
 .separateur {
@@ -120,7 +124,7 @@ main section div.texte-accueil h1{
 }
 /* texte d'accueil */
 main section div.texte-accueil p{
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -128,7 +132,7 @@ main section div.texte-accueil p{
 }
 /* images du menu de navigation d'accueil */
 main section div nav ul li img.img-nav-accueil{
-    width:50%;
+    width:75%;
     height: auto;
     display:block;
     margin: auto;
@@ -173,10 +177,7 @@ main section div nav.nav-accueil ul li{
 }
 /* modifier textes */
 main section div nav.nav-accueil ul li h3{
-    font-size: 18px;
-}
-main section div nav.nav-accueil ul li p{
-    font-size: 12px;
+    font-size: 30px;
 }
 
 
@@ -184,12 +185,12 @@ main section div nav.nav-accueil ul li p{
 
 /* Titre de section : Présentation Personnelle */
 main section article div.titre-section h2{
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     color: #121212;
 }
 main section article div.titre-section p{
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -200,18 +201,18 @@ main section article div.titre-section p{
 /* Titre de partie : À la recherche du Numérique / Une expérience enrichissante / Désillusion et Réorientation */
 main section article div div.s3-titre1 h3, main section article div div.s3-titre2 h3, main section article div div.s3-titre3 h3{
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 /* Titre de sous-partie */
 main section article div div.s3-texte1 h4, main section article div div.s3-texte2 h4, main section article div div.s3-texte3 h4{
-    font-size: 20px;
+    font-size: 32px;
     text-align: left;
     padding-left: 20px;
 }
 /* Texte de sous-partie */
 main section article div div.s3-texte1 p, main section article div div.s3-texte2 p,main section article div div.s3-texte3 p{
-    font-size: 14px;
+    font-size: 26px;
     text-align: left;
     text-align: justify;
     padding-left: 10px;
@@ -229,7 +230,7 @@ main section article div div img#img-imac, main section article div div img#img-
 main section article div.ccl-presentation h5{
     text-align: center;
     color: #4c98c7;
-    font-size: 16px;
+    font-size: 26px;
 }
 
 
@@ -237,12 +238,12 @@ main section article div.ccl-presentation h5{
 
 /* Titre de section : Présentation Personnelle */
 main section div div.titre-section h2{
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     color: #121212;
 }
 main section div div.titre-section p{
-    font-size: 16px;
+    font-size: 24px;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
@@ -252,27 +253,26 @@ main section div div.titre-section p{
 /* Titre de partie : Compétences / Expériences */
 main section div div.liste-cpt h3, main section div div.liste-exp h3{
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 /* Titre de sous-partie */
 main section div div.liste-cpt h4, main section div div.liste-exp h4{
-    font-size: 20px;
+    font-size: 32px;
     text-align: left;
-    padding-left: 120px;
+    padding-left: 12%;
     color: #c73434;
 }
 /* Texte de sous-partie */
 main section div div.liste-cpt ul li{
-    font-size: 12px;
-    text-align: justify;
-    padding-left: 20%;
-    padding-right: 20%;
+    font-size: 24px;
+    padding-left: 15%;
+    padding-right: 10%;
     color: #4272ad;
 }
 /* Texte de sous-partie */
 main section div div.liste-exp ul li{
-    font-size: 12px;
+    font-size: 24px;
     text-align: justify;
     padding-left: 30px;
     padding-right: 30px;
@@ -328,7 +328,7 @@ footer div div.footer-bloc1 img#logo-footer.logo-footer{
 }
 /* texte sous logo footer */
 footer div div.footer-bloc1 p{
-    font-size: 24px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -336,18 +336,18 @@ footer div div.footer-bloc1 p{
 
 /* Contactez moi */
 footer div div.footer-bloc2 h5{
-    font-size: 28px;
+    font-size: 30px;
     text-align: center;
     color: #c73434;
 }
 /* Par email / Sur Linkedin & GitHub */
 footer div div.footer-bloc2 h6{
-    font-size: 18px;
+    font-size: 30px;
     padding-left: 22%;
 }
 /* contact.guillaumebullet@gmail.com */
 footer div div.footer-bloc2 p{
-    font-size: 25px;
+    font-size: 36px;
     text-align: center;
     color: #4272ad;
 }
@@ -378,7 +378,7 @@ footer div div nav.menu-nav-footer{
 /* class des boutons --> modifie les boutons */
 footer div div nav ul li.btn-nav-footer{
     list-style-type: none;
-    font-size: 40px;
+    font-size: 50px;
     color: #4c98c7;
     margin-left: 30px;
     padding-top: 0;
@@ -409,7 +409,7 @@ footer div div nav.menu-projets-footer{
 /* class des boutons --> modifie les boutons */
 footer div div nav ul li.btn-projets-footer {
     list-style-type: none;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 30px;
     padding-top: 0;
     padding-bottom: 0;
@@ -435,7 +435,7 @@ footer div div nav ul li.btn-projets-footer a:hover{
 
 /* Socket */
 footer div.socket p{
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     color: white;
     background-color: black;
@@ -453,15 +453,15 @@ footer div.socket p{
 /* Mise en forme des textes */
 main section.mails div h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 main section.mails div h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 main section.mails div ul li{
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     color: #4272ad;
 }
 
@@ -509,7 +509,7 @@ main section.credits-rgpd div p a{
     text-align: center;
     text-decoration: none;
     color: #c73434;
-    font-size: 28px;
+    font-size: 34px;
     transition: 0.3s;
 }
 main section.credits-rgpd div p a:hover{
