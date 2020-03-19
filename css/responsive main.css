@@ -1,0 +1,153 @@
+/**/ /**/ /* Min 800px */ /**/ /**/
+
+@media screen and (min-width: 800px) {
+    /* images menu nav accueil */
+    main section div nav ul li img.img-nav-accueil {
+        width: 40%;
+    }
+    /* tailles d'images du main */
+    main section article div div img#img-imac, main section article div div img#img-btsam, main section article div div img#img-nws {
+        width: 45%;
+        height: auto;
+        padding-left: 27.5%;
+    }
+    main section div div img#img-cv, main section div div img#img-ldr {
+        width: 50%;
+        height: auto;
+        padding-left: 25%;
+    }
+}
+
+/**/ /**/ /* Min 900px */ /**/ /**/
+
+@media screen and (min-width: 900px) {
+    /* images menu nav accueil */
+    main section div nav ul li img.img-nav-accueil {
+        width: 40%;
+    }
+    /* tailles d'images du main */
+    main section article div div img#img-imac, main section article div div img#img-btsam, main section article div div img#img-nws {
+        width: 45%;
+        height: auto;
+        padding-left: 27.5%;
+    }
+    main section div div img#img-cv, main section div div img#img-ldr {
+        width: 50%;
+        height: auto;
+        padding-left: 25%;
+    }
+}
+
+/**/ /**/ /* Min 1100px */ /**/ /**/
+
+@media screen and (min-width: 1100px) {
+     /* images menu nav accueil */
+    main section div nav ul li img.img-nav-accueil {
+        width: 40%;
+    }
+    /* tailles d'images du main */
+    main section article div div img#img-imac, main section article div div img#img-btsam, main section article div div img#img-nws {
+        width: 70%;
+        height: auto;
+        padding-left: 15%;
+    }
+
+     /* grille de la presentation personnelle */
+     #grille-presentation {
+         display: grid;
+         grid-template-columns: 33% 33% 33%;
+         grid-template-rows: auto;
+     }
+
+     /* grille des compétences et expériences */
+     #grille-competences {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto;
+    }
+    .col1-lin1{
+        grid-column: 1/2;
+        grid-row: 1/2
+    }
+    .col1-lin2{
+        grid-column: 1/2;
+        grid-row: 2/3
+    }
+    .col2-lin1{
+        grid-column: 2/3;
+        grid-row: 1/2
+    }
+    .col2-lin2{
+        grid-column: 2/3;
+        grid-row: 2/3
+    }
+
+    main section div div img#img-cv, main section div div img#img-ldr {
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+        padding-top: 2%;
+    }
+    main section div div.liste-exp h3 {
+        text-align: center;
+        padding-top: 15%;
+    }
+    #img-projets {
+        width: 25%;
+    }
+
+}
+
+/**/ /**/ /* Min 1300px */ /**/ /**/
+
+@media screen and (min-width: 1300px) {
+    main section div div.liste-cpt h3, main section div div.liste-exp h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+    main section div div.liste-cpt h4, main section div div.liste-exp h4 {
+        font-size: 30px;
+    }
+    main section div div.liste-cpt ul li {
+        font-size: 25px;
+    }
+    main section div div.liste-exp ul li {
+       font-size: 25px;
+    }
+    main section div div img#img-cv, main section div div img#img-ldr {
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+}
+
+/**/ /**/ /* Min 1500px */ /**/ /**/
+
+@media screen and (min-width: 1300px) {
+    main section div div.liste-cpt h3, main section div div.liste-exp h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+    main section div div.liste-cpt h4, main section div div.liste-exp h4 {
+        font-size: 30px;
+    }
+    main section div div.liste-cpt ul li {
+        font-size: 30px;
+    }
+    main section div div.liste-exp ul li {
+       font-size: 30px;
+    }
+    main section div div img#img-cv, main section div div img#img-ldr {
+        width: 80%;
+        height: auto;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+    main section div div.liste-cpt{
+        padding-left: 20%;
+    }
+    main section div div.liste-exp{
+        padding-left: 15%;
+    }
+}

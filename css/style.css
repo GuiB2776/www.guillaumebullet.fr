@@ -453,7 +453,10 @@ main section div div img#img-cv, main section div div img#img-ldr {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 /* PROJETS */
-
+    .nav-projets {
+        text-align: center;
+    }
+    
 /* */
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

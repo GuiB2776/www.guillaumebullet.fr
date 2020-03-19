@@ -11,8 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Media Queries -->
     <link rel="stylesheet" type="text/css" href="css/responsive header and footer.css">
-    <link rel="stylesheet" type="text/css" href="css/615px.css">
-    <link rel="stylesheet" type="text/css" href="css/1000px.css">  
+    <link rel="stylesheet" type="text/css" href="css/responsive main.css">  
     <!-- Favicon --> 
     <link rel="icon" sizes="32x32" href="img/guillaume_bullet_favicon.png" type="image/png">
     <!-- police google Roboto -->
@@ -33,7 +32,7 @@
                 <p class="btn-nav"> <a href="index.html"> Guillaume Bullet </a> </p>
             </div>
             <div id="btn-nav2">
-                <p class="btn-nav"> <a href="http://guillaumeb.normandiedigitalschool.fr/projets/" target="_blank"> Projets </a> </p>
+                <p class="btn-nav"> <a href="projets.html"> Projets </a> </p>
             </div>
             <div id="btn-nav3">
                 <p class="btn-nav"> <a href="contact.html" > Contact </p> </a>
@@ -87,9 +86,9 @@
                     <br> <h2> Qui suis-je ? </h2>
                     <p> Présentation Personnelle.</p> 
                 </div>
-                <div class="section-presentation"> 
+                <div class="section-presentation" id="grille-presentation"> 
                     <div class="s3-partie1">
-                        <div class="s3-titre1" class="col1-lin1">
+                        <div class="s3-titre1">
                             <br> <h3> À la recherche du Numérique </h3>
                         </div>
                         <div class="s3-texte1">
@@ -173,65 +172,71 @@
                     <h2 id="ancre-competences"> "Travaillographie" </h2>
                     <p> Compétences et Expériences Professionnelles.</p>
                 </div>
-                <div>
-                    <img id="img-cv" src="img/guillaume bullet cv web.png">
-                </div>
-                <div class="liste-cpt">
-                    <h3> Compétences </h3>
-                    <h4> Développement : </h4>
-                    <ul>
-                        <li> HTML 5 / CSS 3 </li>
-                        <li> JScript </li>
-                        <li> CMS : WordPress </li>
-                    </ul>
-                    <h4> Marketing : </h4>
-                    <ul>
-                        <li> Référencement SEO / SEA </li>
-                        <li> Description de produits </li>
-                        <li> Rédaction d’articles </li>
-                    </ul>
-                    <h4> Design : </h4>
-                    <ul>
-                        <li> Interface Utilisateur UI </li>
-                        <li> Expérience Utilisateur UX </li>
-                        <li> Suite Adobe </li>
-                    </ul>
-                    <h4> Organisationnel : </h4>
-                    <ul>
-                        <li> Gestion des ressources et du temps </li> <br>
-                        <li> Soutien à l’action managériale </li> <br>
-                        <li> Intermédiaire de communication pour les collaborateurs et le responsable </li> <br>
-                    </ul>
-                </div>
-                <div>
-                    <img id="img-ldr" src="img/guillaume bullet lettre de recommandation island properties.jpg">
-                </div>
-                <div class="liste-exp">
-                    <h3> Expériences </h3>
-                    <h4> Février – Mars 2020 : Projet Professionnel </h4>
-                    <ul>
-                        <li> Mise en place, hébergement, certification SSL, d’un site internet vitrine pour une société indonésienne.</li>
-                    </ul>
-                    <h4> Novembre – Décembre 2019 : Projet Étudiant </h4>
-                    <ul>
-                        <li> Création lors d’un projet étudiant en groupe, d’un site e-commerce de vente de goodies sur le thème des films d’horreurs cultes du cinéma. </li>
-                    </ul>
-                    <h4> Novembre – Décembre 2017 : Stage </h4>
-                    <ul>
-                        <li> Création, modification et mise en place d’une page intranet ainsi que d’une banque d’images sur la sécurité industrielle. </li>
-                    </ul>
-                    <h4> Mai – Juin 2017 : Stage International </h4>
-                    <ul>
-                        <li> Gestion du groupe de projet pour la création d’une maquette de site internet en anglais et français. </li>
-                    </ul>
+                <div id="grille-competences">
+                    <div class="col2-lin1">
+                        <img id="img-cv" src="img/guillaume bullet cv web.png">
+                    </div>
+                    <div class="liste-cpt" class="col1-lin1">
+                        <h3> Compétences </h3>
+                        <h4> Développement : </h4>
+                        <ul>
+                            <li> HTML 5 / CSS 3 </li>
+                            <li> JScript </li>
+                            <li> CMS : WordPress </li>
+                        </ul>
+                        <h4> Marketing : </h4>
+                        <ul>
+                            <li> Référencement SEO / SEA </li>
+                            <li> Description de produits </li>
+                            <li> Rédaction d’articles </li>
+                        </ul>
+                        <h4> Design : </h4>
+                        <ul>
+                            <li> Interface Utilisateur UI </li>
+                            <li> Expérience Utilisateur UX </li>
+                            <li> Suite Adobe </li>
+                        </ul>
+                        <h4> Organisationnel : </h4>
+                        <ul>
+                            <li> Gestion des ressources et du temps </li> <br>
+                            <li> Soutien à l’action managériale </li> <br>
+                            <li> Intermédiaire de communication pour les collaborateurs et le responsable </li> <br>
+                        </ul>
+                    </div>
+                    <div class="col2-lin2">
+                        <img id="img-ldr" src="img/guillaume bullet lettre de recommandation island properties.jpg">
+                    </div>
+                    <div class="liste-exp" class="col1-lin2">
+                        <h3> Expériences </h3>
+                        <h4> Février – Mars 2020 : Projet Professionnel </h4>
+                        <ul>
+                            <li> Mise en place, hébergement, certification SSL, d’un site internet vitrine pour une société indonésienne.</li>
+                        </ul>
+                        <h4> Novembre – Décembre 2019 : Projet Étudiant </h4>
+                        <ul>
+                            <li> Création lors d’un projet étudiant en groupe, d’un site e-commerce de vente de goodies sur le thème des films d’horreurs cultes du cinéma. </li>
+                        </ul>
+                        <h4> Novembre – Décembre 2017 : Stage </h4>
+                        <ul>
+                            <li> Création, modification et mise en place d’une page intranet ainsi que d’une banque d’images sur la sécurité industrielle. </li>
+                        </ul>
+                        <h4> Mai – Juin 2017 : Stage International </h4>
+                        <ul>
+                            <li> Gestion du groupe de projet pour la création d’une maquette de site internet en anglais et français. </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <br>
-        <hr> 
-        <br>
-        <div id="ancre-projets"> </div>
+       <br> <hr> <br>
+
+        <div id="ancre-projets" class="nav-projets">
+            <h2> Projets </h2>
+            <img class="nav-projets" id="img-projets" src="img/guillaume bullet work in progress .jpg">
+        </div> 
+
+        <br> <hr> <br>
 
     </main>
 
@@ -260,7 +265,7 @@
                             <h4> <a href="index.html"> → Guillaume Bullet </h4> </p>
                         </li>
                         <li class="btn-nav-footer">
-                            <h4> <a href="http://guillaumeb.normandiedigitalschool.fr/projets/" target="_blank"> → Projets </h4> </p>
+                            <h4> <a href="projets.html"> → Projets </h4> </p>
                         </li>
                         <li class="btn-nav-footer">
                             <h4> <a href="contact.html"> → Contact </a> </h5>
