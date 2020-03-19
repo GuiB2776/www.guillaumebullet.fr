@@ -49,6 +49,7 @@ p {
 /* modifie ul et li sur la taille et décor. de texte */
 ul {
     padding-inline-start: 0px;
+    padding-inline-end: 0px;
     text-decoration: none;
     list-style-type: none;
 }
@@ -91,7 +92,7 @@ hr {
 #topbar {
     display: grid;
       /* configuration de la grille en 3 colonnes */
-      grid-template-columns: 20% auto 75px 75px 75px;
+      grid-template-columns: 20% auto auto auto 20%;
       grid-auto-rows: 1fr; 
       grid-column-gap: 2px;
       grid-row-gap: 1px;
@@ -212,6 +213,10 @@ footer div div.footer-bloc2 a{
 }
 
 /* BLOC 3 : Menu de Navigation */
+/* class du menu de navigation --> met au centre le titre Pages */
+footer div div.footer-bloc3 h4 {
+    text-align: center;
+}
 /* class du menu de navigation --> met au centre les boutons */
 footer div div nav.menu-nav-footer{
     text-align: center;
@@ -222,7 +227,6 @@ footer div div nav.menu-nav-footer{
 /* class des boutons --> modifie les boutons */
 footer div div nav ul li.btn-nav-footer{
     list-style-type: none;
-    font-size: 40px;
     color: #4c98c7;
     margin-left: 30px;
     padding-top: 0;
@@ -248,10 +252,10 @@ footer div div nav ul li.btn-nav-footer a:hover{
 footer div div.footer-bloc4 h4{
     text-align: center;
 }
-/* class des boutons --> modifie les boutons */
+/* class des boutons --> déplace les projets */
 footer div div.footer-bloc4 nav{
     list-style-type: none;
-    margin-left: 20%;
+    padding-left: 20%;
 }
 /* Design des boutons */
 /* modifie le visuel des liens des boutons */
@@ -291,13 +295,11 @@ footer div.socket h6{
 
 /* Bienvenue */
 main section div.texte-accueil h1{
-    font-size: 35px;
     text-align: center;
     color: #4272ad;
 }
 /* texte d'accueil */
 main section div.texte-accueil p{
-    font-size: 20px;
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
