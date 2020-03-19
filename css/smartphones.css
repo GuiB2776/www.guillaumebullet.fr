@@ -1,7 +1,5 @@
 /*  ►  Media Querries  ◄  */ 
 /* SMARTPHONES */
 @media screen and (max-width: 614px) {
-    header div nav ul li.btn-nav {
-        font-size: 14px;
-    }
+   
 }

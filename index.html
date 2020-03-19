@@ -25,21 +25,19 @@
 <body> 
     <header>
         <div id="topbar" class="topbar">
-            <a href="http://guillaumeb.normandiedigitalschool.fr/"> <img id="logo" class="logo" src="img/guillaume_bullet_logo.png"> </a>
+            <div>
+                <a href="http://guillaumeb.normandiedigitalschool.fr/"> <img id="img-logo" src="img/guillaume_bullet_logo.png"> </a>
+            </div>
             <!-- Menu de navigation Principal -->
-            <nav class="menu-nav"> 
-                <ul>
-                    <li class="btn-nav">
-                        <p> <a href="index.html"> Guillaume Bullet </a> </p>
-                    </li>
-                    <li class="btn-nav">
-                        <p> Projets </p>
-                    </li>
-                    <li class="btn-nav">
-                        <p> <a href="contact.html" > Contact </p> </a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="btn-nav1">
+                <p class="btn-nav"> <a href="index.html"> Guillaume Bullet </a> </p>
+            </div>
+            <div id="btn-nav2">
+                <p class="btn-nav"> <a href="http://guillaumeb.normandiedigitalschool.fr/projets/" target="_blank"> Projets </a> </p>
+            </div>
+            <div id="btn-nav3">
+                <p class="btn-nav"> <a href="contact.html" > Contact </p> </a>
+            </div>
         </div>
     </header>
 
@@ -63,15 +61,15 @@
                     <ul id="grille-accueil">
                         <li id="qsj" class="btn-nav-accueil"> 
                             <a href="#ancre-qsj"> <img class="img-nav-accueil" src="img/guillaume bullet qui suis je icon.png" > </a>
-                            <h3> Qui suis-je ?</h2>
+                            <p> Qui suis-je ?</p>
                         </li>
                         <li id="cpt" class="btn-nav-accueil"> 
                             <a href="#ancre-competences"> <img class="img-nav-accueil" src="img/guillaume bullet competences icon.png"> </a>
-                            <h3> Compétences </h2>
+                            <p> Compétences </p>
                         </li>
                         <li id="prj" class="btn-nav-accueil"> 
                             <a href="#ancre-projets"> <img class="img-nav-accueil" src="img/guillaume bullet projets icon.png"> </a>
-                            <h3> Projets </h2>
+                            <p> Projets </p>
                         </li>
                     </ul>
                 </nav>
@@ -89,12 +87,12 @@
                     <br> <h2> Qui suis-je ? </h2>
                     <p> Présentation Personnelle.</p> 
                 </div>
-                <div class="section-presentation" id="grille-1050px"> 
+                <div class="section-presentation"> 
                     <div class="s3-partie1">
                         <div class="s3-titre1" class="col1-lin1">
                             <br> <h3> À la recherche du Numérique </h3>
                         </div>
-                        <div class="s3-texte1" class="col1-lin1">
+                        <div class="s3-texte1">
                             <h4> La faculté </h4>
                             <p> Sorti d’un Bac Littéraire, Spécialité Anglais, je me lance en Fac de Droit et 
                                 trouve cette filière très intéressante, me permettant de garder le cap six mois. 
@@ -160,7 +158,7 @@
                     </div>
                 </div>
                 <div class="ccl-presentation"> 
-                    <br> <h5> Aujourd'hui ce que j'aime c'est développer, échanger, partager, sur un projet et le réaliser. </h5>
+                    <br> <p> Aujourd'hui ce que j'aime c'est développer, échanger, partager, sur un projet et le réaliser. </p>
                 </div>
             </article>
         </section>
@@ -243,13 +241,13 @@
         <div id="grille-footer" class="grille-footer">
             <div class="footer-bloc1">
                 <a href="http://guillaumeb.normandiedigitalschool.fr/"> <img id="logo-footer" class="logo-footer" src="img/guillaume_bullet_logo.png"> </a>
-                <p> © Guillaume Bullet </p>
+                <h5> © Guillaume Bullet </h5>
             </div>
             <div class="footer-bloc2">
-                <h5> • Contactez moi • </h5>
-                <h6> → Par email : </h6>
+                <h4> • Contactez moi • </h4>
+                <h5> Par email : </h5>
                 <p> contact.guillaumebullet@gmail.com</p>
-                <h6> → Sur Linkedin & GitHub : </h6>
+                <h5> Sur Linkedin & GitHub : </h5>
                 <a href="https://www.linkedin.com/in/guillaume-bullet/"> <img class="linkedin-logo" src="img/guillaume bullet linkedin logo.png"> </a>
                 <a href="https://github.com/gbullet-nws"> <img class="github-logo" src="img/guillaume bullet github logo.png"> </a>
             </div>
@@ -258,41 +256,42 @@
                 <nav class="menu-nav-footer"> 
                     <ul>
                         <li class="btn-nav-footer">
-                            <p> <a href="http://guillaumeb.normandiedigitalschool.fr/"> Guillaume Bullet </a> </p>
+                            <h4> <a href="index.html"> → Guillaume Bullet </h4> </p>
                         </li>
                         <li class="btn-nav-footer">
-                            <p> <a href="http://guillaumeb.normandiedigitalschool.fr/"> Projets </a> </p>
+                            <h4> <a href="http://guillaumeb.normandiedigitalschool.fr/projets/" target="_blank"> → Projets </h4> </p>
                         </li>
                         <li class="btn-nav-footer">
-                            <p> <a href="contact.html"> Contact </a> </p>
+                            <h4> <a href="contact.html"> → Contact </a> </h5>
                         </li>
                         <li class="btn-nav-footer">
-                            <p> <a href="http://guillaumeb.normandiedigitalschool.fr/"> Crédits & Mentions Légales </a> </p>
+                            <h5> <a href="http://guillaumeb.normandiedigitalschool.fr/"> → Crédits & Mentions Légales </a> </h5>
                         </li>
                     </ul>
                 </nav>
             </div>
             <div class="footer-bloc4">
+                <h4> Projets : </h4>
                 <nav class="menu-projets-footer"> 
                     <ul>
                         <li class="btn-projets-footer">
-                            <p> <a href="https://www.iawa-indonesia.com/"> ■ www.iawa-indonesia.com </a> </p>
+                            <h5> <a href="https://www.iawa-indonesia.com/" target="_blank"> ■ www.iawa-indonesia.com </a> </h5>
                         </li>
                         <li class="btn-projets-footer">
-                            <p> <a href="http://guillaumeb.normandiedigitalschool.fr/"> ■ Projet 3 : Personal Branding Site </a> </p>
+                            <h5> <a href="http://guillaumeb.normandiedigitalschool.fr/2020/02/12/projet-3-normandie-web-school-annee-1/" target="_blank"> ■ Projet 3 : Personal Branding Site </a> </h5>
                         </li>
                         <li class="btn-projets-footer">
-                            <p> <a href="http://guillaumeb.normandiedigitalschool.fr/"> ■ GitHub : Mes Répertoires </a> </p>
+                            <h5> <a href="http://guillaumeb.normandiedigitalschool.fr/2020/02/12/github/" target="_blank"> ■ GitHub : Mes Répertoires </a> </h5>
                         </li>
                         <li class="btn-projets-footer">
-                            <p> <a href="http://guillaumeb.normandiedigitalschool.fr/"> ■ Projet 2 : Psych'Object </a> </p>
+                            <h5> <a href="http://guillaumeb.normandiedigitalschool.fr/2020/02/12/projet-2-normandie-web-school-annee-1/" target="_blank"> ■ Projet 2 : Psych'Object </a> </h5>
                         </li>
                     </ul>
                 </nav>
             </div>
         </div>
         <div class="socket">
-            <p> © Copyright 2020 - Guillaume Bullet </p>
+            <h6> © Copyright 2020 - Guillaume Bullet </h6>
         </div>
     </footer>
 
