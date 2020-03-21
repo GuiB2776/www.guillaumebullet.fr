@@ -274,8 +274,6 @@
     main section article div div p.textes-pres-projets {
         font-size: 28px;
     }   
-    main section article div 
-    
 }
 
 @media screen and (min-width: 1100px) {
@@ -291,7 +289,6 @@
     main section article div div h3.titres-pres-projets {
         padding-top: 0.2%;
     }
-
 }
 
 @media screen and (min-width: 1400px) {

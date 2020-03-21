@@ -584,6 +584,10 @@ main section article div h4.titres-pres-projets{
 #img-projet-IAWA {
     width: 85%;
     padding-left: 7.5%;
+    transition: 0.3s;
+}
+#img-projet-IAWA:hover {
+    transform: scale(1.2, 1.2);
 }
 
 /*grille projet 3 */
@@ -595,6 +599,10 @@ main section article div h4.titres-pres-projets{
 #img-projet-PBS {
     width: 85%;
     padding-left: 7.5%;
+    transition: 0.3s;
+}
+#img-projet-PBS:hover {
+    transform: scale(1.2, 1.2);
 }
 
 /*grille projet 2 */
@@ -606,6 +614,10 @@ main section article div h4.titres-pres-projets{
 #img-projet-PO {
     width: 85%;
     padding-left: 7.5%;
+    transition: 0.3s;
+}
+#img-projet-PO:hover {
+    transform: scale(1.2, 1.2);
 }
 
 /*grille projet GitHub */
@@ -617,4 +629,27 @@ main section article div h4.titres-pres-projets{
 #img-projet-GitHub {
     width: 85%;
     padding-left: 7.5%;
+    transition: 0.3s;
+}
+#img-projet-GitHub:hover {
+    transform: scale(1.2, 1.2);
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/**/ /**/ /**/ /**/ /* PAGE CRÉDITS & RGPD */ /**/ /**/ /**/ /**/
+
+main section div h1 {
+    text-align: center;
+}
+main section div h2 {
+    padding-left: 12.5%;
+}
+main section div p {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
 }
