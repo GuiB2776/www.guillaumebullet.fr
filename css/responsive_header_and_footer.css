@@ -70,22 +70,46 @@
         text-align: center;
         color: #4272ad;
     }
+    /* bloc 3 h4 */
+    footer div div.footer-bloc3 h4 {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
     /* Liens navigation bloc3 */
     footer div div nav ul li.btn-nav-footer h4 {
         font-size: 20px;
-        color: #4c98c7;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    /* Menu navigation bloc3 */
+    footer div div nav ul{
+        margin-block-start: 0.2em;
+        margin-block-end: 0.2em;
     }
     /* Liens navigation bloc3 */
     footer div div nav ul li.btn-nav-footer h5 {
         text-align: center;
         padding-left: 10%;
         font-size: 16px;
-        color: #4c98c7;
+        margin-block-start: 0.7em;
+        margin-block-end: 0.2em;
+    }
+
+    /* espacement h4 */
+    footer div div.footer-bloc4 h4 {
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
     }
      /* Boutons nav footer projets bloc4 */
      footer div div.footer-bloc4 nav{
         list-style-type: none;
         padding-left: 15%;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    footer div div nav ul li.btn-projets-footer h5 {
+        margin-block-start: 0.2em;
+        margin-block-end: 0.2em;
     }
 
 }
@@ -195,6 +219,12 @@
         font-size: 30px;
         padding-top: 40px;
     }
+    /* taille image logo footer */
+    footer div div.footer-bloc1 img#logo-footer.logo-footer {
+        width: 135px;
+        padding-top: 5%;
+        margin-left: 20%;
+    }
     /* Boutons nav footer projets bloc4 */
     footer div div.footer-bloc4 nav h5{
         list-style-type: none;
@@ -229,16 +259,25 @@
         font-size: 30px;
         padding-top: 40px;
     }
+    /* taille image logo footer */
     footer div div.footer-bloc1 img#logo-footer.logo-footer {
-        width: 175px;
+        width: 135px;
         padding-top: 5%;
         margin-left: 20%;
     }
-       /* adresse mail  footer bloc2 */
-       footer div div.footer-bloc2 p {
+    /*images github et linkedin */
+    footer div div.footer-bloc2 img.linkedin-logo, footer div div.footer-bloc2 img.github-logo {
+        width: 15%;
+        padding-left: 25%;
+    }
+    /* adresse mail  footer bloc2 */
+    footer div div.footer-bloc2 p {
         font-size: 16px;
-        text-align: center;
-        color: #4272ad;
+    }
+    /* footer bloc 4 */
+    footer div div nav ul li.btn-projets-footer h5 {
+        margin-block-start: 0.8em;
+        margin-block-end: 0.8em;
     }
 
 }
@@ -268,7 +307,7 @@
     }
     /* logo du footer */
     footer div div.footer-bloc1 img#logo-footer.logo-footer {
-        width: 175px;
+        width: 145px;
         padding-top: 5%;
         margin-left: 20%;
     }
@@ -277,6 +316,19 @@
         font-size: 18px;
         text-align: center;
         color: #4272ad;
+    }
+    footer div div nav ul li.btn-nav-footer h4 {
+        font-size: 20px;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    /* taille police des projets bloc4 */
+    footer div div.footer-bloc4 nav h5 {
+        font-size: 20px;
+    }
+    footer div div nav ul li.btn-projets-footer h5 {
+        margin-block-start: 0.3em;
+        margin-block-end: 0.3em;
     }
 
 }
@@ -310,32 +362,44 @@
         margin-left: 20%;
     }
     footer div div.footer-bloc2 img.linkedin-logo, footer div div.footer-bloc2 img.github-logo {
-        width: 100px;
-        padding-left: 17%;
-        transition: 0.3s;
+        width: 20%;
+        padding-left: 20%;
+    }
+    /* bloc 3 */
+    footer div div nav ul li.btn-nav-footer a {
+        margin-block-start: 1.2em;
+        margin-block-end: 1.2em;
+    }
+    /* taille police des projets bloc4 */
+    footer div div.footer-bloc4 nav h5 {
+        font-size: 20px;
+    }
+    footer div div nav ul li.btn-projets-footer h5 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
     }
 
 }
 
-/**/ /**/ /* Min 1200px */ /**/ /**/
+/**/ /**/ /* Min 1300px */ /**/ /**/
 
 @media screen and (min-width: 1300px) {
     /* logo footer */
     footer div div.footer-bloc1 img#logo-footer.logo-footer {
-        width: 175px;
+        width: 150px;
         padding-top: 5%;
         margin-left: 20%;
         padding-left: 12.5%;
     }
     /* Guillaume Bullet sous logo */
     footer div div.footer-bloc1 h5 {
-        padding-left: 12.5%;
+        text-align: center;
+        padding-left: 15%;
     }
     /* images linkedin et github */
     footer div div.footer-bloc2 img.linkedin-logo, footer div div.footer-bloc2 img.github-logo {
-        width: 100px;
-        padding-left: 17%;
-        transition: 0.3s;
+        width: 20%;
+        padding-left: 20%;
     }
     /* projets bloc4 */
     footer div div.footer-bloc4 nav ul {
@@ -345,8 +409,40 @@
     /* taille police des projets bloc4 */
     footer div div.footer-bloc4 nav h5 {
         font-size: 20px;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
     }
+    footer div div nav ul li.btn-projets-footer h5 {
+        margin-block-start: 0.8em;
+        margin-block-end: 0.8em;
+    }
+}
 
+/**/ /**/ /* Min 1450px */ /**/ /**/
+
+@media screen and (min-width: 1450px) {
+    /* bloc 2 logos */
+    footer div div.footer-bloc2 img.linkedin-logo, footer div div.footer-bloc2 img.github-logo {
+        width: 15%;
+        padding-left: 25%;
+    }
+    /* logo footer */
+    footer div div.footer-bloc1 img#logo-footer.logo-footer {
+        width: 35%;
+        padding-top: 5%;
+        margin-left: 20%;
+        padding-left: 12.5%;
+    }
+    /* Guillaume Bullet sous logo */
+    footer div div.footer-bloc1 h5 {
+        text-align: center;
+        padding-left: 1%;
+    }
+    footer div div nav ul li.btn-nav-footer a {
+        margin-block-start: 2.5em;
+        margin-block-end: 2.5em;
+    }
+    /* bloc 4 */
+    footer div div nav ul li.btn-projets-footer h5 {
+        margin-block-start: 1.2em;
+        margin-block-end: 1.2m;
+    }
 }

@@ -6,19 +6,17 @@
     }
 }
 
-/**/ /**/ /* Min 800px */ /**/ /**/
+/**/ /**/ /* Min 551px */ /**/ /**/
 
 @media screen and (min-width: 551px) {
+    /* textes et images compétences et expériences */
     main section div div.liste-cpt h4,main section div div.liste-exp h4 {
-        text-align: left;
         padding-left: 20%;
         padding-right: 5%;
-        color: #c73434;
     }
     main section div div.liste-cpt ul li, main section div div.liste-exp ul li {
         padding-left: 25%;
         padding-right: 25%;
-        color: #4272ad;
     }
 }
 
@@ -110,11 +108,11 @@
         width: 80%;
         height: auto;
         padding-left: 10%;
-        padding-top: 2%;
+        padding-top: 20%;
     }
     main section div div.liste-exp h3 {
         text-align: center;
-        padding-top: 15%;
+        padding-top: 5%;
     }
     /* grille nav projets */
     #grille-projets {

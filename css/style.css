@@ -47,6 +47,11 @@ h6 {
 p {
     font-size: 20px;
 }
+/* décor. des liens */
+a{
+    text-decoration: none;
+    color: #4c98c7;
+}
 /* modifie ul et li sur la taille et décor. de texte */
 ul {
     padding-inline-start: 0px;
@@ -463,6 +468,9 @@ main section div div img#img-cv, main section div div img#img-ldr {
     .img-projets:hover {
         scale: 1.2em, 1.2em;
     }
+    .titre-projet-iawa, .titre-projet-3, .titre-projet-2 {
+        font-size: px;
+    }
 
     
 /* */
@@ -542,3 +550,157 @@ main section.credits-rgpd div p a:hover{
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
+/**/ /**/ /**/ /**/ /* PAGE PROJETS */ /**/ /**/ /**/ /**/
+
+
+/* Mise en forme des articles avec des grilles */
+main section article h2 {
+    text-align: center;
+}
+main section article div div h3.titres-pres-projets{
+    text-align: center;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.1em;
+}
+main section article div div p.textes-pres-projets{
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+}
+main section article div div h4.titres-pres-projets{
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+/*grille projet iawa */
+#grille-projets-iawa {
+    display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+}
+#img-projet-IAWA {
+    width: 85%;
+    padding-left: 7.5%;
+}
+
+/*grille projet 3 */
+#grille-projets-3 {
+    display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+}
+#img-projet-PBS {
+    width: 85%;
+    padding-left: 7.5%;
+}
+
+/*grille projet 2 */
+#grille-projets-2 {
+    display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+}
+#img-projet-PO {
+    width: 85%;
+    padding-left: 7.5%;
+}
+
+/*grille projet GitHub */
+#grille-projets-GitHub {
+    display:grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+}
+#img-projet-GitHub {
+    width: 85%;
+    padding-left: 7.5%;
+}
+
+
+@media screen and (min-width: 1100px){
+    /* placements pour grilles */
+    main section article div div h3.titres-pres-projets {
+        text-align: left;
+        padding-left: 10%;
+    }   
+    main section article div div p.textes-pres-projets {
+        padding-left: 1%;
+        padding-right: 7.5%;
+        margin-block-start: 0.1em;
+        margin-block-end: 0.1em;
+    }
+
+    /* grille iawa */
+    #grille-projets-iawa {
+        display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+    }
+    #img-projet-IAWA {
+        width: 85%;
+        padding-top: 2%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .titres-pres-projets {
+        text-align: center;
+    }
+
+    /* grille projet 3 */
+    #grille-projets-3 {
+        display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+    }
+    #img-projet-PBS {
+        width: 85%;
+        padding-top: 8%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .titres-pres-projets {
+        text-align: center;
+    }
+
+    /* grille projet 2 */
+    #grille-projets-2 {
+        display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+    }
+    #img-projet-PO {
+        width: 85%;
+        padding-top: 10%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .titres-pres-projets {
+        text-align: center;
+    }
+
+    /* grille projet GitHub */
+    #grille-projets-GitHub {
+        display:grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+    }
+    #img-projet-GitHub {
+        width: 85%;
+        padding-top: 5%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .titres-pres-projets {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main section article div div h3.titres-pres-projets {
+        padding-top: 5%;
+    }   
+    
+}
