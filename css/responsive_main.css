@@ -8,6 +8,22 @@
 
 /**/ /**/ /* Min 800px */ /**/ /**/
 
+@media screen and (min-width: 551px) {
+    main section div div.liste-cpt h4,main section div div.liste-exp h4 {
+        text-align: left;
+        padding-left: 20%;
+        padding-right: 5%;
+        color: #c73434;
+    }
+    main section div div.liste-cpt ul li, main section div div.liste-exp ul li {
+        padding-left: 25%;
+        padding-right: 25%;
+        color: #4272ad;
+    }
+}
+
+/**/ /**/ /* Min 800px */ /**/ /**/
+
 @media screen and (min-width: 800px) {
     /* images menu nav accueil */
     main section div nav ul li img.img-nav-accueil {
@@ -100,8 +116,19 @@
         text-align: center;
         padding-top: 15%;
     }
-    #img-projets {
-        width: 25%;
+    /* grille nav projets */
+    #grille-projets {
+        display: grid;
+            grid-template-columns: 33% 33% 33%;
+    }
+    .img-projets {
+        width: 75%;
+    }
+    #img-projets-2 {
+        width: 65%;
+    }
+    #titre-projet-2 {
+        margin-bottom: 15%;
     }
 
 }
@@ -123,7 +150,7 @@
        font-size: 25px;
     }
     main section div div img#img-cv, main section div div img#img-ldr {
-        width: 80%;
+        width: 100%;
         height: auto;
         padding-left: 10%;
         padding-top: 10%;
