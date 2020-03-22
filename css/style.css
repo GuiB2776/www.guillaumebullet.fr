@@ -466,7 +466,7 @@ main section div div img#img-cv, main section div div img#img-ldr {
         transition: 0.3s;
     }
     .img-projets:hover {
-        scale: 1.2em, 1.2em;
+        transform: scale(1.2, 1.2);
     }
     .titre-projet-iawa, .titre-projet-3, .titre-projet-2 {
         font-size: px;
