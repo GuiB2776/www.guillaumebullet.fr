@@ -198,6 +198,20 @@
 
 /**/ /**/ /* Min 900px */ /**/ /**/
 
+@media screen and (min-width: 800px) {
+    /* bloc 3 footer */
+    footer div div nav ul {
+        margin-block-start: 0.7em;
+        margin-block-end: 0.5em;
+    }
+    footer div div nav ul li.btn-nav-footer h4 {
+        margin-block-start: 1em;
+        margin-block-end: 0.8em;
+    }
+}
+
+/**/ /**/ /* Min 900px */ /**/ /**/
+
 @media screen and (min-width: 900px) {
     /* Grille du header */
     #topbar {
