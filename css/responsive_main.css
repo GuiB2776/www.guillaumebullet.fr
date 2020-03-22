@@ -321,3 +321,24 @@
         margin-block-end: 4em;
     }
 }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+/**/ /**/ /**/ /**/ /* PAGE CRÉDITS & RGPD */ /**/ /**/ /**/ /**/
+
+@media screen and (min-width: 1000px) {
+    #grille-credits {
+        display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: auto;
+    }
+    .p1-credits{
+        grid-column: 1 / 2;
+    }
+    .p2-credits{
+        grid-column: 2 / 3;
+    }
+}

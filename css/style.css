@@ -472,18 +472,12 @@ main section div div img#img-cv, main section div div img#img-ldr {
         font-size: px;
     }
 
-    
-/* */
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-
 
 /**/ /**/ /**/ /**/ /* PAGE CONTACT */ /**/ /**/ /**/ /**/
-
 
 /* Mise en forme des textes */
 main section.mails div h1{
@@ -642,14 +636,36 @@ main section article div h4.titres-pres-projets{
 
 /**/ /**/ /**/ /**/ /* PAGE CRÉDITS & RGPD */ /**/ /**/ /**/ /**/
 
-main section div h1 {
+main section div.h1-credits h1 {
     text-align: center;
 }
-main section div h2 {
+main section div.h2-credits h2{
+    text-align: center;
+}
+main section div.p1-credits h4, main section div.p2-credits h4 {
+    text-align: center;
+}
+main section div.p1-credits li, main section div.p2-credits li{
+    text-align: center;
+}
+main section div.p1-rgpd h2, main section div.p2-rgpd h2, main section div.p3-rgpd h2, main section div.p4-rgpd h2, main section div.p5-rgpd h2, main section div.p6-rgpd h2{
     padding-left: 12.5%;
 }
-main section div p {
+main section div.p1-rgpd p, main section div.p2-rgpd p, main section div.p3-rgpd p, main section div.p4-rgpd p, main section div.p5-rgpd p, main section div.p6-rgpd p{
     padding-left: 5%;
     padding-right: 5%;
     text-align: justify;
 }
+main section div.p4-rgpd h3{
+    text-align: center;
+}
+main section div.p5-rgpd ul li{
+    text-align: center;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
