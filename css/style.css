@@ -473,6 +473,8 @@ main section div div img#img-cv, main section div div img#img-ldr {
         font-size: 30px;
     }
 
+
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -630,6 +632,8 @@ main section article div h4.titres-pres-projets{
     transform: scale(1.2, 1.2);
 }
 
+
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -666,6 +670,8 @@ main section div.p5-rgpd ul li{
     margin-block-end: 0.7em;
 }
 
+
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -687,10 +693,39 @@ main section article div img#iawa-img-p1 {
     padding-left: 12.5%;
 }
 
+
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-/**/ /**/ /**/ /**/ /* PAGE : PROJET IAWA */ /**/ /**/ /**/ /**/
+/**/ /**/ /**/ /**/ /* PAGE : PROJET ÉTUDIANT Psychobject */ /**/ /**/ /**/ /**/
+.txt-presentation-psychobject{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-size: 25px;
+}
+#grille-Psychobject {
+    display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(6, auto);
+}
+.txt-titre-psychobject{
+    color: #b2061e;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.txt-paragraphe-psychobject {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-size: 25px;
+}
+.img-projet-psychobject {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 
