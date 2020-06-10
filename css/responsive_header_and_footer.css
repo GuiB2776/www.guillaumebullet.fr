@@ -454,13 +454,32 @@
         text-align: center;
         padding-left: 1%;
     }
-    footer div div nav ul li.btn-nav-footer a {
-        margin-block-start: 2.5em;
-        margin-block-end: 2.5em;
+    /* bloc 3 */
+    footer div div nav ul li.btn-nav-footer h4{
+        margin-block-start: 1.5em;
+        margin-block-end: 1.5em;
     }
     /* bloc 4 */
     footer div div nav ul li.btn-projets-footer h5 {
         margin-block-start: 1.2em;
         margin-block-end: 1.2m;
+    }
+
+}
+
+/**/ /**/ /* Min 1450px */ /**/ /**/
+
+@media screen and (min-width: 2000px) {
+    /* logo footer */
+    footer div div.footer-bloc1 img#logo-footer.logo-footer {
+        width: 35%;
+        padding-top: 5%;
+        margin-left: 12.5%;
+        padding-left: 12.5%;
+    }
+    /* footer bloc 3 */
+    footer div div nav ul li.btn-nav-footer h4{
+        margin-block-start: 1.5em;
+        margin-block-end: 1.5em;
     }
 }

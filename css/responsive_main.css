@@ -323,13 +323,6 @@
     }
 }
 
-@media screen and (min-width: 2000px) {
-    footer div div nav ul li.btn-nav-footer h4 {
-        margin-block-start: 4em;
-        margin-block-end: 4em;
-    }
-}
-
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -382,5 +375,5 @@
 
 /**/ /**/ /**/ /**/ /* PAGE : 3ème Projet Étudiant */ /**/ /**/ /**/ /**/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px) {}
     

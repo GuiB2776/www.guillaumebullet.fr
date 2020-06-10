@@ -72,7 +72,7 @@ hr {
     width: 50%;
     margin: auto;
 }
-/* Séparateur fait main (à revoir) */
+/* Séparateur fait main */
 .separateur {
     background: #ffffff; 
     text-align: center;
@@ -498,7 +498,7 @@ main section.reseaux-sociaux div ul li, main section.reseaux-sociaux div h2{
 }
 /* logo linkedin & github */
 main section.reseaux-sociaux img.linkedin-logo, main section.reseaux-sociaux img.github-logo{
-    width: 25%;
+    width: 20%;
     transition: 0.3s;
 }
 /* survol logo linkedin & github */
@@ -507,7 +507,7 @@ main section.reseaux-sociaux img.linkedin-logo:hover, main section.reseaux-socia
 }
 /* profil linkedin & github */
 main section.reseaux-sociaux img.linkedin-profil, main section.reseaux-sociaux img.github-profil{
-    width: 75%;
+    width: 60%;
     height: auto;
     transition: 0.3s;
 }
