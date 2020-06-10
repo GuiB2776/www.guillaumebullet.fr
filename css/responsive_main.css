@@ -373,7 +373,35 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-/**/ /**/ /**/ /**/ /* PAGE : 3ème Projet Étudiant */ /**/ /**/ /**/ /**/
+/**/ /**/ /**/ /**/ /* PAGE : PROJET ÉTUDIANT Psychobject */ /**/ /**/ /**/ /**/
 
-@media screen and (min-width: 1000px) {}
+@media screen and (max-width: 1000px) {
+    .txt-presentation-psychobject{
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+        font-size: 25px;
+    }
+    #grille-Psychobject {
+        display:grid;
+            grid-template-columns: 100%;
+            grid-template-rows: repeat(12, auto);
+    }
+    .txt-titre-psychobject{
+        color: #b2061e;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .txt-paragraphe-psychobject {
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: justify;
+        font-size: 22px;
+    }
+    .img-projet-psychobject {
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
     
