@@ -375,11 +375,8 @@
 
 /**/ /**/ /**/ /**/ /* PAGE : PROJET ÉTUDIANT Psychobject */ /**/ /**/ /**/ /**/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .txt-presentation-psychobject{
-        padding-left: 10%;
-        padding-right: 10%;
-        text-align: justify;
         font-size: 25px;
     }
     #grille-Psychobject {
@@ -402,6 +399,14 @@
         width: 70%;
         padding-left: 15%;
         padding-right: 15%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .img-projet-psychobject {
+        width: 70%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 15%;
     }
 }
     
